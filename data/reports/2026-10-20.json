@@ -7,8 +7,8 @@
       "category": "물가",
       "items": [
         {
-          "title": "Canada Inflation Heats Up in September With Jump in Gas Prices",
-          "summary": "Canadian inflation ticked higher last month as prices at the pump jumped again, though underlying price pressures look to be holding steady.",
+          "title": "캐나다 9월 물가 상승폭 확대…휘발유값 급등 영향",
+          "summary": "주유소 가격이 다시 뛰면서 지난달 캐나다 물가 상승률이 높아졌지만, 근원 물가 압력은 안정세를 유지하는 것으로 보인다.",
           "why_it_matters": "",
           "sources": [
             {
@@ -19,8 +19,8 @@
           "impact": null
         },
         {
-          "title": "Bank of Canada Survey Records Notable Rise in Inflation Expectations",
-          "summary": "Economists say the survey results could set the stage for a Bank of Canada interest-rate increase next week.",
+          "title": "캐나다은행 설문서 기대인플레이션 눈에 띄게 상승",
+          "summary": "이코노미스트들은 이번 설문 결과가 다음 주 캐나다은행의 기준금리 인상 근거가 될 수 있다고 본다.",
           "why_it_matters": "",
           "sources": [
             {
@@ -31,8 +31,8 @@
           "impact": null
         },
         {
-          "title": "Amazon to Hire Over 300,000 in Holiday Season, Up 20% From 2025",
-          "summary": "Amazon.com Inc. plans to hire more than 300,000 workers during the holiday shopping season, up 20% from a year ago, making it a stand-out in an otherwise lackluster holiday jobs market.",
+          "title": "아마존, 연말 쇼핑 시즌 30만 명 이상 채용…작년보다 20% 증가",
+          "summary": "아마존이 연말 쇼핑 시즌에 전년보다 20% 많은 30만 명 이상을 채용할 계획이다. 전반적으로 부진한 연말 고용 시장에서 두드러진 행보다.",
           "why_it_matters": "",
           "sources": [
             {
@@ -48,8 +48,8 @@
       "category": "무역·재정",
       "items": [
         {
-          "title": "South Africa’s president eyes trade with China and India as US ties sour",
-          "summary": "Cyril Ramaphosa says Pretoria wants to take advantage of growing tariff-free access benefits with Beijing",
+          "title": "남아공 대통령, 미국과 관계 악화 속 중국·인도와 교역 확대 모색",
+          "summary": "시릴 라마포사 대통령은 남아공이 늘어나는 대중국 무관세 수출 혜택을 활용하겠다고 밝혔다.",
           "why_it_matters": "",
           "sources": [
             {
@@ -72,8 +72,8 @@
           "impact": null
         },
         {
-          "title": "Traders are growing wary of a copper price crash with no sign of tariffs",
-          "summary": "A historic shift in global inventories has helped drive copper to records, but the trade behind the rally is looking increasingly fragile.",
+          "title": "관세 신호 없자 트레이더들 구리 가격 급락 경계",
+          "summary": "글로벌 재고의 역사적 이동이 구리 가격을 사상 최고치로 끌어올렸지만, 랠리를 떠받친 거래 구조는 점점 취약해 보인다.",
           "why_it_matters": "",
           "sources": [
             {
@@ -89,8 +89,8 @@
       "category": "경기·성장",
       "items": [
         {
-          "title": "Can Africa outgrow China?",
-          "summary": "IMF says continent’s GDP to expand faster than China for first time in decades as it beats worst expectations following Iran war",
+          "title": "아프리카, 중국보다 빠르게 성장할까?",
+          "summary": "IMF는 이란 전쟁 이후 최악의 전망을 피한 아프리카 대륙의 GDP 성장률이 수십 년 만에 처음으로 중국을 앞지를 것으로 내다봤다.",
           "why_it_matters": "",
           "sources": [
             {
@@ -101,8 +101,8 @@
           "impact": null
         },
         {
-          "title": "Drop in Insolvencies Adds to Signs of Resilience in UK Economy",
-          "summary": "The number of company insolvencies in England and Wales declined in September from August, the latest sign that the UK economy is holding up in the face of surging energy prices and higher borrowing costs.",
+          "title": "영국 기업 파산 감소…경제 회복력 신호 추가",
+          "summary": "9월 잉글랜드·웨일스의 기업 파산 건수가 8월보다 줄었다. 에너지 가격 급등과 차입 비용 상승에도 영국 경제가 버티고 있다는 최근 신호다.",
           "why_it_matters": "",
           "sources": [
             {
@@ -130,8 +130,8 @@
           "impact": null
         },
         {
-          "title": "China Benchmark Switch Spells Ramp-Up of Overnight Operation",
-          "summary": "China’s central bank may be embarking on a multi-month transition toward an overnight policy interest rate, a shift that will require more frequent liquidity operations using the new benchmark candidate to test market reception, analysts say.",
+          "title": "중국 기준금리 체계 전환…익일물 공개시장조작 확대 예고",
+          "summary": "중국 인민은행이 수개월에 걸쳐 익일물 정책금리 체계로 전환할 수 있으며, 시장 반응을 점검하기 위해 새 기준금리 후보를 활용한 유동성 공급을 더 자주 할 것이라고 분석가들은 전망했다.",
           "why_it_matters": "",
           "sources": [
             {
@@ -166,8 +166,8 @@
           "impact": null
         },
         {
-          "title": "Indonesia Rate-Hike Bets Rise as MSCI Shock Tests Rupiah",
-          "summary": "Bank Indonesia’s reluctance to raise interest rates faces a fresh test Wednesday, with bets on a hike increasing as the threat of a double downgrade to the nation’s stock market fuels capital outflows and piles pressure on the rupiah.",
+          "title": "MSCI 충격에 루피아 흔들…인도네시아 금리 인상 베팅 확대",
+          "summary": "인도네시아 증시의 이중 강등 우려로 자본 유출이 이어지며 루피아화 압박이 커지자, 금리 인상을 꺼려온 인도네시아 중앙은행이 수요일 새로운 시험대에 오른다.",
           "why_it_matters": "",
           "sources": [
             {
@@ -190,8 +190,8 @@
           "impact": null
         },
         {
-          "title": "Bulls think AI is immune to higher rates. Dot-com investors made the same mistake. Read more in today’s WSJ Economics newsletter:",
-          "summary": "Plus, AI slop comes for the government, why large families are a status symbol, and lessons from Jerome Powell’s calendar.",
+          "title": "강세론자들은 AI가 고금리에 끄떡없다고 보지만…닷컴 시절 투자자들도 같은 실수를 했다",
+          "summary": "WSJ 경제 뉴스레터: 정부로 번지는 저품질 AI 콘텐츠, 대가족이 지위의 상징이 된 이유, 제롬 파월의 일정표에서 얻는 교훈 등.",
           "why_it_matters": "",
           "sources": [
             {
@@ -202,8 +202,8 @@
           "impact": null
         },
         {
-          "title": "ECB’s Rehn Says French Spread to Germany Has Widened ‘Somewhat’",
-          "summary": "French bond spreads relative to German bunds have widened “somewhat” as a result of both global and country-specific factors, European Central Bank Governing Council member Olli Rehn said.",
+          "title": "ECB 렌 위원 \"프랑스-독일 국채 스프레드 '다소' 확대\"",
+          "summary": "올리 렌 ECB 정책위원은 글로벌 요인과 프랑스 고유 요인이 겹치며 독일 국채 대비 프랑스 국채 스프레드가 '다소' 벌어졌다고 말했다.",
           "why_it_matters": "",
           "sources": [
             {
@@ -214,8 +214,8 @@
           "impact": null
         },
         {
-          "title": "Hungary Holds Key Rate With Budget and Euro Path In Focus",
-          "summary": "Hungary’s central bank kept interest rates unchanged for a second month with Governor Mihaly Varga pointing to market reaction to the government’s fiscal plan as a factor affecting future moves.",
+          "title": "헝가리 기준금리 동결…예산·유로 도입 경로 주목",
+          "summary": "헝가리 중앙은행이 2개월 연속 금리를 동결했다. 미할리 바르가 총재는 정부 재정계획에 대한 시장 반응이 향후 결정에 영향을 줄 요인이라고 짚었다.",
           "why_it_matters": "",
           "sources": [
             {
@@ -231,8 +231,8 @@
       "category": "고용",
       "items": [
         {
-          "title": "U.K. Wage Growth Picks Up, Jobless Rate Falls Ahead of Bank of England Meeting",
-          "summary": "Wage growth rose a little in the three months through August, with unemployment also falling, raising the likelihood that the Bank of England will raise its key rate next month.",
+          "title": "영국 임금 상승세 확대·실업률 하락…영란은행 회의 앞둬",
+          "summary": "8월까지 3개월간 임금 상승률이 소폭 높아지고 실업률은 하락해, 영란은행이 다음 달 기준금리를 올릴 가능성이 커졌다.",
           "why_it_matters": "",
           "sources": [
             {
