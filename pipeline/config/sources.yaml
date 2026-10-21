@@ -1,0 +1,56 @@
+# 뉴스 소스 목록. type: rss | html
+# RSS 주소는 언론사 사정으로 바뀔 수 있으니 주기적으로 확인하세요.
+# 기사 본문은 저장하지 않고 RSS의 제목·요약과 원문 링크만 사용합니다 (블룸버그/WSJ/FT는 유료 기사 포함).
+sources:
+  # --- 해외 ---
+  - name: Bloomberg Economics
+    type: rss
+    url: https://feeds.bloomberg.com/economics/news.rss
+    lang: en
+  - name: Bloomberg Markets
+    type: rss
+    url: https://feeds.bloomberg.com/markets/news.rss
+    lang: en
+  - name: CNBC Economy
+    type: rss
+    url: https://www.cnbc.com/id/20910258/device/rss/rss.html
+    lang: en
+  - name: CNBC Finance
+    type: rss
+    url: https://www.cnbc.com/id/10000664/device/rss/rss.html
+    lang: en
+  - name: Yahoo Finance
+    type: rss
+    # 티커별 헤드라인 피드 (S&P500, 미국채 10년, 달러인덱스, 유가)
+    url: https://feeds.finance.yahoo.com/rss/2.0/headline?s=%5EGSPC,%5ETNX,DX-Y.NYB,CL=F&region=US&lang=en-US
+    lang: en
+  - name: WSJ Economy
+    type: rss
+    url: https://feeds.content.dowjones.io/public/rss/socialeconomyfeed
+    lang: en
+  - name: MarketWatch
+    type: rss
+    url: https://feeds.content.dowjones.io/public/rss/mw_topstories
+    lang: en
+  - name: Financial Times
+    type: rss
+    url: https://www.ft.com/global-economy?format=rss
+    lang: en
+  - name: Federal Reserve
+    type: rss
+    url: https://www.federalreserve.gov/feeds/press_all.xml
+    lang: en
+
+  # --- 국내 ---
+  - name: 연합뉴스 경제
+    type: rss
+    url: https://www.yna.co.kr/rss/economy.xml
+    lang: ko
+  - name: 한국경제 경제
+    type: rss
+    url: https://www.hankyung.com/feed/economy
+    lang: ko
+  - name: 매일경제 경제
+    type: rss
+    url: https://www.mk.co.kr/rss/30100041/
+    lang: ko

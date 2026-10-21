@@ -1,0 +1,27 @@
+[project]
+name = "macro-daily"
+version = "0.1.0"
+description = "전날 거시경제 뉴스를 수집·요약하는 파이프라인"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.70",
+    "feedparser>=6.0",
+    "httpx>=0.27",
+    "beautifulsoup4>=4.12",
+    "pyyaml>=6.0",
+    "python-dotenv>=1.0",
+    "tzdata",  # Windows에는 IANA 시간대 DB가 없어서 필요
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

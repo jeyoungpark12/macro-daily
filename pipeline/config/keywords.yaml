@@ -1,0 +1,79 @@
+# 카테고리별 키워드. 제목/요약에 하나라도 포함되면 해당 카테고리로 분류.
+# 어느 카테고리에도 걸리지 않는 기사는 거시경제 기사가 아닌 것으로 보고 제외.
+# 짧은 영문 키워드는 다른 단어 안에서도 매칭되므로(예: "Fed" → "Federer") 필요하면 더 구체적으로.
+categories:
+  통화정책:
+    - 기준금리
+    - 금리
+    - 한국은행
+    - 한은
+    - 연준
+    - FOMC
+    - 금통위
+    - Federal Reserve
+    - the Fed
+    - Fed's
+    - Powell
+    - central bank
+    - ECB
+    - BOJ
+    - rate cut
+    - rate hike
+    - interest rate
+    - monetary policy
+  물가:
+    - 물가
+    - CPI
+    - PCE
+    - PPI
+    - 인플레이션
+    - inflation
+  고용:
+    - 고용
+    - 실업률
+    - 취업자
+    - payrolls
+    - unemployment
+    - jobless
+    - labor market
+    - jobs report
+  경기·성장:
+    - GDP
+    - 성장률
+    - 경기
+    - 경상수지
+    - 산업생산
+    - PMI
+    - recession
+    - economic growth
+    - economy
+    - retail sales
+  환율·외환:
+    - 환율
+    - 원·달러
+    - 원달러
+    - 외환
+    - dollar
+    - yen
+    - yuan
+  원자재:
+    - 유가
+    - 원유
+    - WTI
+    - 브렌트
+    - 금값
+    - oil price
+    - crude
+    - OPEC
+  무역·재정:
+    - 수출
+    - 수입
+    - 관세
+    - 무역수지
+    - 국채
+    - 재정
+    - tariff
+    - treasury
+    - treasuries
+    - bond yield
+    - deficit

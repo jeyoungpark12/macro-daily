@@ -1,0 +1,85 @@
+name: Daily macro report
+
+on:
+  schedule:
+    # 00:00 UTC = 09:00 KST. GitHub cron은 수 분 지연될 수 있음.
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "보고서 날짜 (YYYY-MM-DD, 비우면 어제)"
+        required: false
+  # 코드/디자인 수정 push 시에는 보고서 생성 없이 사이트만 다시 배포
+  push:
+    branches: [main]
+    paths: ["web/**", "data/**"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily-report
+  cancel-in-progress: false
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        if: github.event_name != 'push'
+        with:
+          python-version: "3.12"
+
+      - name: Install pipeline
+        if: github.event_name != 'push'
+        run: pip install -e ./pipeline
+
+      - name: Generate report
+        if: github.event_name != 'push'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -n "${{ inputs.date }}" ]; then
+            python -m macro_daily.main --date "${{ inputs.date }}"
+          else
+            python -m macro_daily.main
+          fi
+
+      - name: Commit report
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/reports
+          git diff --cached --quiet || git commit -m "report: $(TZ=Asia/Seoul date -d yesterday +%F)"
+          git push
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Build site
+        working-directory: web
+        env:
+          NEXT_BASE_PATH: /${{ github.event.repository.name }}
+        run: |
+          npm ci || npm install
+          npm run build
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: web/out
+
+  deploy:
+    needs: report
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,95 @@
+# 보고서 상단에 표시할 지표.
+#   source: yahoo  → Yahoo Finance 일별 종가 (symbol = 야후 티커). 비공식 API라 막힐 수 있음.
+#   source: fred   → 미국 연준 FRED 시계열 (symbol = 시리즈 ID). 키 불필요.
+#   transform: yoy → 월별 지수를 전년동월비(%)로 변환 (CPI 등)
+#   decimals: 표시 소수 자릿수
+# 보고 대상 날짜 기준으로 그날 또는 그 이전의 가장 최근 값을 사용한다.
+indicators:
+  - group: 시장
+    name: 코스피
+    source: yahoo
+    symbol: "^KS11"
+    decimals: 2
+  - group: 시장
+    name: 코스닥
+    source: yahoo
+    symbol: "^KQ11"
+    decimals: 2
+  - group: 시장
+    name: S&P 500
+    source: yahoo
+    symbol: "^GSPC"
+    decimals: 2
+  - group: 시장
+    name: 나스닥
+    source: yahoo
+    symbol: "^IXIC"
+    decimals: 2
+  - group: 시장
+    name: 원/달러 환율
+    source: yahoo
+    symbol: "KRW=X"
+    unit: 원
+    decimals: 2
+  - group: 시장
+    name: 달러인덱스
+    source: yahoo
+    symbol: "DX-Y.NYB"
+    decimals: 2
+  - group: 시장
+    name: WTI 유가
+    source: yahoo
+    symbol: "CL=F"
+    unit: $
+    decimals: 2
+  - group: 시장
+    name: 금
+    source: yahoo
+    symbol: "GC=F"
+    unit: $
+    decimals: 1
+  - group: 시장
+    name: VIX
+    source: yahoo
+    symbol: "^VIX"
+    decimals: 2
+
+  - group: 금리
+    name: 미국 기준금리 (상단)
+    source: fred
+    symbol: DFEDTARU
+    unit: "%"
+    decimals: 2
+  - group: 금리
+    name: 미국채 2년
+    source: fred
+    symbol: DGS2
+    unit: "%"
+    decimals: 2
+  - group: 금리
+    name: 미국채 10년
+    source: fred
+    symbol: DGS10
+    unit: "%"
+    decimals: 2
+
+  - group: 경제지표
+    name: 미국 CPI (YoY)
+    source: fred
+    symbol: CPIAUCSL
+    transform: yoy
+    unit: "%"
+    decimals: 1
+  - group: 경제지표
+    name: 미국 근원 CPI (YoY)
+    source: fred
+    symbol: CPILFESL
+    transform: yoy
+    unit: "%"
+    decimals: 1
+  - group: 경제지표
+    name: 미국 실업률
+    source: fred
+    symbol: UNRATE
+    unit: "%"
+    decimals: 1

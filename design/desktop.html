@@ -1,0 +1,724 @@
+﻿<!DOCTYPE html>
+
+<html class="light" lang="ko"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>모닝 매크로 브리핑 - Global Institutional Macro Intelligence</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&amp;family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "on-secondary-fixed-variant": "#3d4664",
+            "secondary-container": "#d0d9fd",
+            "on-tertiary-fixed-variant": "#003ea8",
+            "inverse-primary": "#bec5e5",
+            "on-tertiary": "#ffffff",
+            "outline-variant": "#c6c6ce",
+            "error-container": "#ffdad6",
+            "tertiary-fixed-dim": "#b4c5ff",
+            "on-surface": "#161c22",
+            "secondary-fixed-dim": "#bdc5e9",
+            "tertiary": "#000000",
+            "on-primary-container": "#7b83a0",
+            "surface": "#f6f9ff",
+            "surface-container-high": "#e3e9f1",
+            "primary-container": "#131a33",
+            "on-primary": "#ffffff",
+            "surface-bright": "#f6f9ff",
+            "inverse-on-surface": "#ebf1f9",
+            "on-tertiary-fixed": "#00174b",
+            "error": "#ba1a1a",
+            "inverse-surface": "#2b3137",
+            "secondary-fixed": "#dbe1ff",
+            "outline": "#76767e",
+            "primary": "#000000",
+            "on-tertiary-container": "#497cff",
+            "on-surface-variant": "#45464d",
+            "surface-tint": "#565d79",
+            "secondary": "#545d7c",
+            "on-primary-fixed-variant": "#3e4660",
+            "on-primary-fixed": "#131a33",
+            "tertiary-fixed": "#dbe1ff",
+            "primary-fixed-dim": "#bec5e5",
+            "on-error": "#ffffff",
+            "surface-container-low": "#eef4fc",
+            "tertiary-container": "#00174b",
+            "on-error-container": "#93000a",
+            "surface-container-highest": "#dde3eb",
+            "background": "#f6f9ff",
+            "surface-container": "#e8eef6",
+            "surface-dim": "#d4dbe2",
+            "surface-variant": "#dde3eb",
+            "on-secondary": "#ffffff",
+            "on-secondary-container": "#555e7d",
+            "surface-container-lowest": "#ffffff",
+            "on-secondary-fixed": "#111a36",
+            "on-background": "#161c22",
+            "primary-fixed": "#dbe1ff"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.125rem",
+            "lg": "0.25rem",
+            "xl": "0.5rem",
+            "full": "0.75rem"
+          },
+          "spacing": {
+            "space-md": "0.875rem",
+            "gutter-desktop": "1.5rem",
+            "space-lg": "1.25rem",
+            "space-xs": "0.25rem",
+            "margin": "1rem",
+            "space-xl": "2rem",
+            "gutter": "0.75rem",
+            "margin-desktop": "2.5rem",
+            "space-sm": "0.5rem"
+          },
+          "fontFamily": {
+            "body-md": ["Manrope"],
+            "headline-lg": ["Newsreader"],
+            "display-masthead-mobile": ["Newsreader"],
+            "headline-sm": ["Newsreader"],
+            "body-sm": ["Manrope"],
+            "label-caption": ["Manrope"],
+            "body-lg": ["Manrope"],
+            "metric-stat-lg": ["Manrope"],
+            "label-tag": ["Manrope"],
+            "display-masthead": ["Newsreader"],
+            "metric-stat-md": ["Manrope"],
+            "headline-md": ["Newsreader"]
+          },
+          "fontSize": {
+            "body-md": ["0.9375rem", { "lineHeight": "1.5rem", "fontWeight": "400" }],
+            "headline-lg": ["1.625rem", { "lineHeight": "2.125rem", "letterSpacing": "-0.015em", "fontWeight": "600" }],
+            "display-masthead-mobile": ["1.75rem", { "lineHeight": "2.25rem", "letterSpacing": "-0.015em", "fontWeight": "600" }],
+            "headline-sm": ["1.125rem", { "lineHeight": "1.5rem", "fontWeight": "500" }],
+            "body-sm": ["0.8125rem", { "lineHeight": "1.25rem", "fontWeight": "400" }],
+            "label-caption": ["0.75rem", { "lineHeight": "1rem", "letterSpacing": "0.01em", "fontWeight": "500" }],
+            "body-lg": ["1.0625rem", { "lineHeight": "1.6875rem", "fontWeight": "400" }],
+            "metric-stat-lg": ["1.75rem", { "lineHeight": "2rem", "letterSpacing": "-0.025em", "fontWeight": "700" }],
+            "label-tag": ["0.6875rem", { "lineHeight": "0.875rem", "letterSpacing": "0.06em", "fontWeight": "700" }],
+            "display-masthead": ["2.25rem", { "lineHeight": "2.75rem", "letterSpacing": "-0.02em", "fontWeight": "600" }],
+            "metric-stat-md": ["1.25rem", { "lineHeight": "1.5rem", "letterSpacing": "-0.015em", "fontWeight": "700" }],
+            "headline-md": ["1.25rem", { "lineHeight": "1.75rem", "letterSpacing": "-0.01em", "fontWeight": "500" }]
+          }
+        }
+      }
+    }
+  </script>
+<style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 20;
+      font-size: 1.15rem;
+      vertical-align: middle;
+      display: inline-block;
+    }
+    .custom-scrollbar::-webkit-scrollbar {
+      height: 3px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-track {
+      background: #f1f5f9;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background: #cbd5e1;
+    }
+  </style>
+</head>
+<body class="bg-background text-on-surface antialiased min-h-screen flex flex-col font-body-md selection:bg-secondary-fixed selection:text-on-secondary-fixed">
+<!-- TOP GLOBAL HEADER (Shared Component: TopNavBar execution) -->
+<header class="w-full bg-surface border-b border-outline-variant/60 flex flex-col z-30 sticky top-0 shadow-sm bg-opacity-95 backdrop-blur-md">
+<!-- Utility Masthead Bar -->
+<div class="w-full px-margin-desktop py-space-sm flex flex-col gap-space-xs border-b border-outline-variant/40">
+<div class="flex items-center justify-between">
+<!-- Left: Search & Masthead Brand -->
+<div class="flex items-center gap-space-lg">
+<a class="text-headline-md font-headline-md font-semibold text-primary tracking-tight flex items-center gap-2" href="#">
+<span class="inline-block w-2.5 h-2.5 bg-primary-container rounded-xs"></span>
+            모닝 매크로 브리핑
+            <span class="font-body-sm text-label-caption text-on-surface-variant font-normal tracking-normal border border-outline-variant/50 px-1.5 py-0.5 rounded-sm">Institutional Edition</span>
+</a>
+<!-- Inset Compact Search Bar (Shared spec: on_left) -->
+<div class="relative w-64 hidden xl:block">
+<span class="material-symbols-outlined absolute left-2.5 top-2 text-outline text-[1.1rem]">search</span>
+<input class="w-full pl-8 pr-3 py-1 text-body-sm font-body-sm bg-surface-container-lowest border border-outline-variant rounded text-on-surface placeholder-on-surface-variant focus:outline-none focus:border-secondary focus:ring-0" placeholder="지표, 중앙은행 코멘트, 티커 검색..." type="text"/>
+</div>
+</div>
+<!-- Right Utilities & Audio Briefing Action -->
+<div class="flex items-center gap-space-md">
+<!-- Live Date Picker Indicator -->
+<div class="flex items-center gap-1.5 px-2.5 py-1 bg-surface-container-low border border-outline-variant/60 rounded text-label-caption font-label-caption text-on-surface font-semibold">
+<span class="material-symbols-outlined text-on-surface-variant">calendar_today</span>
+<span>2025년 5월 20일 (화)</span>
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-600 animate-pulse ml-0.5"></span>
+</div>
+<!-- Font Scaling Tool -->
+<div class="flex items-center border border-outline-variant rounded bg-surface-container-lowest px-1.5 py-0.5">
+<button class="px-1 text-label-caption font-semibold text-on-surface-variant hover:text-primary" title="글자 작게">가-</button>
+<span class="text-outline-variant text-[10px]">|</span>
+<button class="px-1 text-label-caption font-semibold text-on-surface-variant hover:text-primary" title="글자 크게">가+</button>
+</div>
+<!-- Trailing Audio Briefing CTA (Shared Component requirement) -->
+<button class="flex items-center gap-1.5 bg-primary-container text-surface-bright px-3.5 py-1.5 rounded-lg text-body-sm font-body-sm font-medium hover:bg-black transition-colors cursor-pointer shadow-xs active:opacity-90">
+<span class="material-symbols-outlined text-[1.1rem]">volume_up</span>
+<span>오디오 브리핑 듣기</span>
+<span class="text-label-caption bg-secondary/40 text-surface-bright px-1 py-0.2 rounded text-[10px]">3분</span>
+</button>
+<!-- Trailing Action Icons (calendar_today, volume_up, bookmark, notifications, account_circle) -->
+<div class="flex items-center gap-1 text-on-surface-variant border-l border-outline-variant/50 pl-3">
+<button class="p-1 hover:text-primary hover:bg-surface-container-high rounded transition-colors" title="북마크 목록">
+<span class="material-symbols-outlined">bookmark</span>
+</button>
+<button class="p-1 hover:text-primary hover:bg-surface-container-high rounded transition-colors relative" title="실시간 알림">
+<span class="material-symbols-outlined">notifications</span>
+<span class="absolute top-1 right-1 w-1.5 h-1.5 bg-error rounded-full"></span>
+</button>
+<button class="p-1 hover:text-primary hover:bg-surface-container-high rounded transition-colors" title="기관 프로필">
+<span class="material-symbols-outlined">account_circle</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Navigation Links Cluster (Desktop) -->
+<nav class="flex items-center gap-space-lg pt-1">
+<!-- Active link: 일간 브리핑 -->
+<a class="border-b-2 border-primary text-primary font-body-md font-semibold pb-1 flex items-center gap-1.5" href="#">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+          일간 브리핑
+        </a>
+<a class="text-on-surface-variant hover:text-primary font-body-md transition-colors pb-1" href="#">
+          거시경제 지표 캘린더
+        </a>
+<a class="text-on-surface-variant hover:text-primary font-body-md transition-colors pb-1" href="#">
+          글로벌 환율/채권
+        </a>
+<a class="text-on-surface-variant hover:text-primary font-body-md transition-colors pb-1 flex items-center gap-1" href="#">
+          심층 리포트
+          <span class="text-[9px] bg-secondary-container text-on-secondary-fixed px-1 rounded font-bold">PRO</span>
+</a>
+<a class="text-on-surface-variant hover:text-primary font-body-md transition-colors pb-1" href="#">
+          스크랩/아카이브
+        </a>
+</nav>
+</div>
+<!-- Rolling Market Ticker Bar (Overnight Global Financial Summary) -->
+<div class="w-full bg-surface-container-lowest border-t border-b border-outline-variant/40 px-margin-desktop py-1.5 flex items-center overflow-x-auto custom-scrollbar text-label-tag">
+<div class="flex items-center gap-6 shrink-0 w-full justify-between">
+<div class="flex items-center gap-2 pr-4 border-r border-outline-variant/50">
+<span class="inline-block w-2 h-2 rounded-full bg-emerald-500"></span>
+<span class="font-bold text-on-surface-variant tracking-wider">OVERNIGHT CLOSE</span>
+</div>
+<!-- S&P 500 -->
+<div class="flex items-center gap-2">
+<span class="text-on-surface font-semibold">S&amp;P 500</span>
+<span class="font-bold font-mono text-on-surface">5,308.15</span>
+<span class="inline-flex items-center px-1.5 py-0.5 rounded bg-[#ECFDF5] text-[#065F46] border border-[#A7F3D0] font-mono text-[10px]">
+            ▲ +0.85%
+          </span>
+</div>
+<!-- NASDAQ -->
+<div class="flex items-center gap-2">
+<span class="text-on-surface font-semibold">나스닥 종합</span>
+<span class="font-bold font-mono text-on-surface">16,742.39</span>
+<span class="inline-flex items-center px-1.5 py-0.5 rounded bg-[#ECFDF5] text-[#065F46] border border-[#A7F3D0] font-mono text-[10px]">
+            ▲ +1.24%
+          </span>
+</div>
+<!-- US 10Y Yield -->
+<div class="flex items-center gap-2">
+<span class="text-on-surface font-semibold">미 10년 국채수익률</span>
+<span class="font-bold font-mono text-on-surface">4.412%</span>
+<span class="inline-flex items-center px-1.5 py-0.5 rounded bg-[#FEF2F2] text-[#991B1B] border border-[#FECACA] font-mono text-[10px]">
+            ▼ -4.8bp
+          </span>
+</div>
+<!-- DXY Dollar Index -->
+<div class="flex items-center gap-2">
+<span class="text-on-surface font-semibold">달러인덱스(DXY)</span>
+<span class="font-bold font-mono text-on-surface">104.25</span>
+<span class="inline-flex items-center px-1.5 py-0.5 rounded bg-[#FEF2F2] text-[#991B1B] border border-[#FECACA] font-mono text-[10px]">
+            ▼ -0.32%
+          </span>
+</div>
+<!-- USDKRW Overnight -->
+<div class="flex items-center gap-2">
+<span class="text-on-surface font-semibold">야간 원/달러</span>
+<span class="font-bold font-mono text-on-surface">1,372.50원</span>
+<span class="inline-flex items-center px-1.5 py-0.5 rounded bg-[#FEF2F2] text-[#991B1B] border border-[#FECACA] font-mono text-[10px]">
+            ▼ -6.20원
+          </span>
+</div>
+<!-- WTI Crude Oil -->
+<div class="flex items-center gap-2">
+<span class="text-on-surface font-semibold">WTI 원유</span>
+<span class="font-bold font-mono text-on-surface">$78.45</span>
+<span class="inline-flex items-center px-1.5 py-0.5 rounded bg-[#ECFDF5] text-[#065F46] border border-[#A7F3D0] font-mono text-[10px]">
+            ▲ +1.10%
+          </span>
+</div>
+</div>
+</div>
+</header>
+<!-- MAIN BODY LAYOUT (Desktop 65% / 35% Asymmetric Split) -->
+<main class="w-full flex-1 max-w-[1520px] mx-auto px-margin-desktop py-space-xl">
+<div class="grid grid-cols-12 gap-space-xl items-start">
+<!-- ============================================== -->
+<!-- LEFT 65% COLUMN: Primary Macro Editorial Canvas -->
+<!-- ============================================== -->
+<section class="col-span-12 lg:col-span-8 flex flex-col gap-space-lg">
+<!-- Editorial Masthead Headline Card -->
+<article class="bg-surface-container-lowest border border-outline-variant/70 rounded-lg p-space-lg">
+<!-- Metadata Bar -->
+<div class="flex items-center justify-between border-b border-outline-variant/40 pb-space-sm mb-space-md text-label-caption font-label-caption text-on-surface-variant">
+<div class="flex items-center gap-2">
+<span class="px-2 py-0.5 bg-primary-container text-surface-bright rounded text-[11px] font-bold tracking-wider">DAILY BRIEF</span>
+<span class="inline-flex items-center gap-1 font-semibold text-emerald-800">
+<span class="material-symbols-outlined text-[13px] text-emerald-700">verified</span>
+                편집국 리서치 데스크 검증 완료
+              </span>
+</div>
+<div class="flex items-center gap-3">
+<span>발행 2025.05.20 07:00 KST</span>
+<span class="text-outline-variant">•</span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">schedule</span> 소요 3분
+              </span>
+</div>
+</div>
+<!-- Main Article Title -->
+<h1 class="text-headline-lg font-headline-lg text-primary mb-space-sm font-serif">
+            어젯밤 글로벌 매크로 브리핑: 뉴욕 증시 마감 &amp; 전일 발표된 핵심 경제지표 팩트체크
+          </h1>
+<p class="text-body-md font-body-md text-on-surface-variant leading-relaxed">
+            미 4월 근원 소비자물가지수(Core CPI)가 예상 경로에 부합하며 둔화세를 보인 가운데, 파월 연준의장의 차분한 물가 진단이 더해져 시장은 연내 금리 인하 기대감을 복원했습니다. 뉴욕 3대 지수가 일제히 상승 마감하고 미 국채 금리와 달러는 동반 반락했습니다.
+          </p>
+<!-- Executive 3-Line Summary Module (Style Guidance: 3px left border accent #0B132B, #F1F5F9 tint) -->
+<div class="mt-space-lg p-space-md bg-surface-container-low border-l-4 border-primary-container rounded-r-lg">
+<div class="flex items-center justify-between mb-2">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[1.1rem]">summarize</span>
+<h3 class="text-body-md font-bold text-primary tracking-tight">전일 매크로 핵심 3줄 요약 (Executive 3-Line Summary)</h3>
+</div>
+<div class="flex items-center gap-2">
+<button class="inline-flex items-center gap-1 text-label-caption font-semibold px-2 py-1 bg-surface-container-lowest border border-outline-variant rounded hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined text-[13px]">picture_as_pdf</span> PDF 다운로드
+                </button>
+<button class="inline-flex items-center gap-1 text-label-caption font-semibold px-2 py-1 bg-surface-container-lowest border border-outline-variant rounded hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined text-[13px]">table_chart</span> 지표 분석표 열기
+                </button>
+</div>
+</div>
+<!-- Custom 4x4px Square Geometric Bullets -->
+<ul class="space-y-2 text-body-sm font-body-sm text-on-surface">
+<li class="flex items-start gap-2.5">
+<span class="w-1.5 h-1.5 bg-primary-container mt-2 shrink-0"></span>
+<span><strong>미 4월 근원 CPI 둔화세 확인:</strong> 전월비 0.3% 상승으로 6개월 만에 최저폭 기록. 서비스 물가 및 주거비 끈적임 일부 완화되며 시장의 조기 재가속화 공포 차단.</span>
+</li>
+<li class="flex items-start gap-2.5">
+<span class="w-1.5 h-1.5 bg-primary-container mt-2 shrink-0"></span>
+<span><strong>파월 연준의장 온건 발언:</strong> "다음 조치가 금리 인상일 가능성은 극히 낮다"고 재확인하며 일각의 스태그플레이션 우려를 일축, 안정적 디스인플레이션 경로 지지.</span>
+</li>
+<li class="flex items-start gap-2.5">
+<span class="w-1.5 h-1.5 bg-primary-container mt-2 shrink-0"></span>
+<span><strong>위험자산 일제 랠리:</strong> 10년물 국채수익률 4.41%로 급락, 달러인덱스 하락(104.25) 속에 반도체·기술주 주도로 나스닥 +1.24% 강세 견인.</span>
+</li>
+</ul>
+</div>
+</article>
+<!-- Topic Tab Filter Bar -->
+<div class="flex items-center justify-between border-b border-outline-variant/60 pb-2">
+<div class="flex items-center gap-1">
+<span class="text-body-sm font-bold text-primary mr-3 flex items-center gap-1">
+<span class="material-symbols-outlined text-[1rem]">tune</span>
+              심층 팩트체크
+            </span>
+<button class="px-3 py-1 bg-primary-container text-surface-bright rounded text-label-caption font-bold">전체보기</button>
+<button class="px-3 py-1 bg-surface-container-lowest hover:bg-surface-container-high text-on-surface-variant rounded text-label-caption font-medium border border-outline-variant/50 transition-colors">금리·통화정책</button>
+<button class="px-3 py-1 bg-surface-container-lowest hover:bg-surface-container-high text-on-surface-variant rounded text-label-caption font-medium border border-outline-variant/50 transition-colors">물가·고용</button>
+<button class="px-3 py-1 bg-surface-container-lowest hover:bg-surface-container-high text-on-surface-variant rounded text-label-caption font-medium border border-outline-variant/50 transition-colors">환율·원자재</button>
+<button class="px-3 py-1 bg-surface-container-lowest hover:bg-surface-container-high text-on-surface-variant rounded text-label-caption font-medium border border-outline-variant/50 transition-colors">글로벌 공급망</button>
+</div>
+<span class="text-label-caption text-on-surface-variant">정렬: 중요도순</span>
+</div>
+<!-- ============================================== -->
+<!-- Deep-Dive Report Cards (3 Distinct Macro Modules) -->
+<!-- ============================================== -->
+<!-- Card 1: Powell Fed Comments -->
+<article class="bg-surface-container-lowest border border-outline-variant/70 rounded-lg p-space-lg transition-all hover:border-outline">
+<div class="flex items-center justify-between mb-space-xs text-label-caption font-label-caption">
+<div class="flex items-center gap-2">
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-on-surface font-bold uppercase tracking-wider">통화정책</span>
+<span class="text-on-surface-variant">출처: Bloomberg Macro Desk</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="inline-flex items-center px-2 py-0.5 rounded bg-[#ECFDF5] text-[#065F46] border border-[#A7F3D0] font-bold text-[10px]">
+                [시장 호재] 지수 상승 견인
+              </span>
+<button class="text-on-surface-variant hover:text-primary p-0.5" title="북마크">
+<span class="material-symbols-outlined text-[17px]">bookmark_border</span>
+</button>
+<button class="text-on-surface-variant hover:text-primary p-0.5" title="공유">
+<span class="material-symbols-outlined text-[17px]">share</span>
+</button>
+</div>
+</div>
+<h2 class="text-headline-md font-headline-md text-primary font-serif font-semibold mt-1 mb-2">
+            파월 연준의장 "인플레이션 둔화 확신에 더 많은 시간 걸려... 스태그플레이션 우려는 과도"
+          </h2>
+<p class="text-body-md font-body-md text-on-surface-variant mb-3 leading-relaxed">
+            암스테르담 외국은행협회 연차총회에 참석한 제롬 파월 의장은 1분기 인플레 지표 부진을 인정하면서도, 노동시장의 점진적 냉각과 정책금리의 제약성이 실물경제에 효과를 발휘하고 있음을 강조했습니다.
+          </p>
+<!-- Quote Block Box -->
+<div class="p-3 bg-surface border-l-2 border-secondary rounded-r text-body-sm font-body-md text-on-surface italic mb-3">
+            "1분기 미국의 인플레이션 진전 부족은 주목할 만하나, 현 금리 수준이 충분히 제약적이라는 기본 판단에는 변함이 없다. 다음 단계 조치가 추가 인상일 가능성은 희박하며 인내심을 갖고 지표를 검증하겠다."
+          </div>
+<!-- Quantitative Impact Rail -->
+<div class="grid grid-cols-3 gap-space-sm p-2.5 bg-surface-container-low rounded border border-outline-variant/40 mb-3 text-label-caption">
+<div>
+<span class="text-on-surface-variant block">연방기금 금리 선물 (9월 인하 확률)</span>
+<span class="font-bold font-mono text-on-surface text-[13px]">68.4% (전일 52.1% 대비 +16.3%p)</span>
+</div>
+<div>
+<span class="text-on-surface-variant block">미 2년물 국채 (통화정책 민감)</span>
+<span class="font-bold font-mono text-emerald-800 text-[13px]">4.721% (-8.2bp 급락)</span>
+</div>
+<div>
+<span class="text-on-surface-variant block">달러화 압력</span>
+<span class="font-bold font-mono text-on-surface text-[13px]">주요 6개국 통화 대비 약세 전환</span>
+</div>
+</div>
+<!-- Bottom Meta & Expert Commentary -->
+<div class="flex items-center justify-between pt-2 border-t border-outline-variant/40 text-body-sm">
+<div class="flex items-center gap-2 text-on-surface-variant text-[12px]">
+<span class="material-symbols-outlined text-primary text-[15px]">record_voice_over</span>
+<span><strong>애널리스트 코멘트:</strong> "금리 인상 가능성이라는 최악의 테일 리스크를 공식 배제해 증시 멀티플 하방을 확실히 방어함."</span>
+</div>
+<a class="inline-flex items-center gap-1 text-[#2563EB] hover:underline text-[12px] font-semibold shrink-0" href="#">
+              블룸버그 원문 전문 보기 <span class="material-symbols-outlined text-[13px]">arrow_outward</span>
+</a>
+</div>
+</article>
+<!-- Card 2: US April CPI Fact-Check -->
+<article class="bg-surface-container-lowest border border-outline-variant/70 rounded-lg p-space-lg transition-all hover:border-outline">
+<div class="flex items-center justify-between mb-space-xs text-label-caption font-label-caption">
+<div class="flex items-center gap-2">
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-on-surface font-bold uppercase tracking-wider">물가지표 팩트체크</span>
+<span class="text-on-surface-variant">출처: WSJ Macro / 미 노동통계국(BLS)</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="inline-flex items-center px-2 py-0.5 rounded bg-[#ECFDF5] text-[#065F46] border border-[#A7F3D0] font-bold text-[10px]">
+                [달러 약세·국채 강세]
+              </span>
+<button class="text-on-surface-variant hover:text-primary p-0.5" title="북마크">
+<span class="material-symbols-outlined text-[17px]">bookmark_border</span>
+</button>
+<button class="text-on-surface-variant hover:text-primary p-0.5" title="공유">
+<span class="material-symbols-outlined text-[17px]">share</span>
+</button>
+</div>
+</div>
+<h2 class="text-headline-md font-headline-md text-primary font-serif font-semibold mt-1 mb-2">
+            미 4월 소비자물가지수(CPI) 전년비 3.4% 상승... 예상치 부합하며 시장 안도 랠리 촉발
+          </h2>
+<p class="text-body-md font-body-md text-on-surface-variant mb-3 leading-relaxed">
+            전월비 헤드라인 지수는 0.3% 상승해 시장 예상치(0.4%)를 하회했습니다. 특히 시장이 가장 경계하던 슈퍼코어(주거비 제외 근원 서비스) 인플레이션이 전월비 0.42%로 지난달(0.65%) 대비 확연한 둔화 궤적으로 복귀했습니다.
+          </p>
+<!-- Key Chart Summary Snapshot Rail -->
+<div class="border border-outline-variant/50 rounded p-3 bg-surface mb-3">
+<div class="flex items-center justify-between text-label-caption font-bold text-on-surface-variant mb-2">
+<span>미 CPI 주요 세부 구성항목 전월비(MoM) 변동</span>
+<span class="font-normal text-[11px]">계절조정 수치 / BLS</span>
+</div>
+<div class="grid grid-cols-4 gap-2 text-center">
+<div class="bg-surface-container-lowest p-2 rounded border border-outline-variant/40">
+<span class="block text-label-caption text-on-surface-variant">헤드라인 CPI</span>
+<span class="text-metric-stat-md font-mono font-bold text-on-surface">+0.3%</span>
+<span class="text-[10px] text-emerald-700 block">예상(0.4%) 하회</span>
+</div>
+<div class="bg-surface-container-lowest p-2 rounded border border-outline-variant/40">
+<span class="block text-label-caption text-on-surface-variant">근원 CPI(식품·에너지외)</span>
+<span class="text-metric-stat-md font-mono font-bold text-on-surface">+0.3%</span>
+<span class="text-[10px] text-emerald-700 block">3년래 최저 수준</span>
+</div>
+<div class="bg-surface-container-lowest p-2 rounded border border-outline-variant/40">
+<span class="block text-label-caption text-on-surface-variant">주거비(Shelter)</span>
+<span class="text-metric-stat-md font-mono font-bold text-amber-800">+0.4%</span>
+<span class="text-[10px] text-on-surface-variant block">둔화 속도 점진적</span>
+</div>
+<div class="bg-surface-container-lowest p-2 rounded border border-outline-variant/40">
+<span class="block text-label-caption text-on-surface-variant">중고차 가격</span>
+<span class="text-metric-stat-md font-mono font-bold text-emerald-700">-1.4%</span>
+<span class="text-[10px] text-emerald-700 block">디플레이션 기여</span>
+</div>
+</div>
+</div>
+<div class="flex items-center justify-between pt-2 border-t border-outline-variant/40 text-body-sm">
+<div class="flex items-center gap-2 text-on-surface-variant text-[12px]">
+<span class="material-symbols-outlined text-primary text-[15px]">record_voice_over</span>
+<span><strong>데스크 진단:</strong> "하반기 금리 인하의 '첫 단추'가 채워짐. 9월 FOMC 인하 베이스라인 시나리오 급부상."</span>
+</div>
+<a class="inline-flex items-center gap-1 text-[#2563EB] hover:underline text-[12px] font-semibold shrink-0" href="#">
+              BLS 상세 보고서 분석 <span class="material-symbols-outlined text-[13px]">arrow_outward</span>
+</a>
+</div>
+</article>
+<!-- Card 3: IEA vs OPEC Oil Dynamics -->
+<article class="bg-surface-container-lowest border border-outline-variant/70 rounded-lg p-space-lg transition-all hover:border-outline">
+<div class="flex items-center justify-between mb-space-xs text-label-caption font-label-caption">
+<div class="flex items-center gap-2">
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-on-surface font-bold uppercase tracking-wider">원자재·에너지</span>
+<span class="text-on-surface-variant">출처: Reuters Commodities</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="inline-flex items-center px-2 py-0.5 rounded bg-[#FFFBEB] text-[#92400E] border border-[#FDE68A] font-bold text-[10px]">
+                [변동성 확대] 에너지 섹터 주시
+              </span>
+<button class="text-on-surface-variant hover:text-primary p-0.5" title="북마크">
+<span class="material-symbols-outlined text-[17px]">bookmark_border</span>
+</button>
+<button class="text-on-surface-variant hover:text-primary p-0.5" title="공유">
+<span class="material-symbols-outlined text-[17px]">share</span>
+</button>
+</div>
+</div>
+<h2 class="text-headline-md font-headline-md text-primary font-serif font-semibold mt-1 mb-2">
+            IEA '올해 글로벌 원유 수요 전망치 14만 배럴 하향' vs OPEC+ '감산 기조 연장 시사'... 유가 $78선 등락
+          </h2>
+<p class="text-body-md font-body-md text-on-surface-variant mb-3 leading-relaxed">
+            국제에너지기구(IEA)가 유럽 산업경기 둔화와 OECD 재고 증가를 근거로 수요 증가폭을 일일 106만 배럴로 하향한 반면, 사우디아라비아 중심의 OPEC+는 6월 장관급 회의에서 자발적 감산(일 220만 배럴) 연장을 기정사실화하고 있어 배럴당 $78~$83 박스권 장세가 이어지고 있습니다.
+          </p>
+<div class="flex items-center justify-between pt-2 border-t border-outline-variant/40 text-body-sm">
+<div class="flex items-center gap-2 text-on-surface-variant text-[12px]">
+<span class="material-symbols-outlined text-primary text-[15px]">record_voice_over</span>
+<span><strong>국제원자재 데스크:</strong> "지정학적 리스크 프리미엄 축소 속 OPEC+ 정례회의 전까지 관망세 우세."</span>
+</div>
+<a class="inline-flex items-center gap-1 text-[#2563EB] hover:underline text-[12px] font-semibold shrink-0" href="#">
+              로이터 에너지 기사 원문 <span class="material-symbols-outlined text-[13px]">arrow_outward</span>
+</a>
+</div>
+</article>
+</section>
+<!-- ============================================== -->
+<!-- RIGHT 35% COLUMN: Institutional Sticky Sidebar -->
+<!-- ============================================== -->
+<aside class="col-span-12 lg:col-span-4 flex flex-col gap-space-lg lg:sticky lg:top-28">
+<!-- MODULE 1: Overnight Global Macro Board (Market Snapshot) -->
+<div class="bg-surface-container-lowest border border-outline-variant/80 rounded-lg p-space-md shadow-xs">
+<div class="flex items-center justify-between border-b border-outline-variant/40 pb-2 mb-space-sm">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-primary text-[1.1rem]">monitoring</span>
+<h3 class="text-headline-sm font-headline-sm text-primary font-semibold">글로벌 마켓 보드</h3>
+</div>
+<span class="text-label-caption text-on-surface-variant">종가 기준 / 실시간 반영</span>
+</div>
+<!-- 6-Metric Card Grid with Mini Sparkline Paths -->
+<div class="grid grid-cols-2 gap-2.5">
+<!-- 1. S&P 500 -->
+<div class="p-2.5 bg-surface border border-outline-variant/40 rounded flex flex-col justify-between">
+<div class="flex justify-between items-start">
+<span class="text-label-caption font-bold text-on-surface-variant">S&amp;P 500</span>
+<span class="text-[10px] font-bold text-emerald-700 bg-emerald-50 px-1 rounded">+0.85%</span>
+</div>
+<div class="my-1">
+<div class="text-metric-stat-md font-mono text-on-surface">5,308.15</div>
+</div>
+<div class="h-6 w-full flex items-end">
+<svg class="w-full h-5 text-emerald-600 stroke-current fill-none stroke-[1.5]" viewbox="0 0 100 24">
+<path d="M 0,18 Q 20,20 40,12 T 80,6 L 100,2"></path>
+</svg>
+</div>
+</div>
+<!-- 2. NASDAQ -->
+<div class="p-2.5 bg-surface border border-outline-variant/40 rounded flex flex-col justify-between">
+<div class="flex justify-between items-start">
+<span class="text-label-caption font-bold text-on-surface-variant">나스닥 종합</span>
+<span class="text-[10px] font-bold text-emerald-700 bg-emerald-50 px-1 rounded">+1.24%</span>
+</div>
+<div class="my-1">
+<div class="text-metric-stat-md font-mono text-on-surface">16,742.39</div>
+</div>
+<div class="h-6 w-full flex items-end">
+<svg class="w-full h-5 text-emerald-600 stroke-current fill-none stroke-[1.5]" viewbox="0 0 100 24">
+<path d="M 0,20 Q 25,18 45,10 T 75,5 L 100,1"></path>
+</svg>
+</div>
+</div>
+<!-- 3. US 10Y Yield -->
+<div class="p-2.5 bg-surface border border-outline-variant/40 rounded flex flex-col justify-between">
+<div class="flex justify-between items-start">
+<span class="text-label-caption font-bold text-on-surface-variant">미 10년물 국채</span>
+<span class="text-[10px] font-bold text-red-700 bg-red-50 px-1 rounded">-4.8bp</span>
+</div>
+<div class="my-1">
+<div class="text-metric-stat-md font-mono text-on-surface">4.412%</div>
+</div>
+<div class="h-6 w-full flex items-end">
+<svg class="w-full h-5 text-red-600 stroke-current fill-none stroke-[1.5]" viewbox="0 0 100 24">
+<path d="M 0,2 Q 30,5 50,14 T 80,18 L 100,22"></path>
+</svg>
+</div>
+</div>
+<!-- 4. Dollar Index -->
+<div class="p-2.5 bg-surface border border-outline-variant/40 rounded flex flex-col justify-between">
+<div class="flex justify-between items-start">
+<span class="text-label-caption font-bold text-on-surface-variant">달러인덱스(DXY)</span>
+<span class="text-[10px] font-bold text-red-700 bg-red-50 px-1 rounded">-0.32%</span>
+</div>
+<div class="my-1">
+<div class="text-metric-stat-md font-mono text-on-surface">104.25</div>
+</div>
+<div class="h-6 w-full flex items-end">
+<svg class="w-full h-5 text-red-600 stroke-current fill-none stroke-[1.5]" viewbox="0 0 100 24">
+<path d="M 0,4 Q 30,8 60,15 T 85,18 L 100,21"></path>
+</svg>
+</div>
+</div>
+<!-- 5. USDKRW -->
+<div class="p-2.5 bg-surface border border-outline-variant/40 rounded flex flex-col justify-between">
+<div class="flex justify-between items-start">
+<span class="text-label-caption font-bold text-on-surface-variant">원/달러 야간</span>
+<span class="text-[10px] font-bold text-red-700 bg-red-50 px-1 rounded">-6.20원</span>
+</div>
+<div class="my-1">
+<div class="text-metric-stat-md font-mono text-on-surface">1,372.50</div>
+</div>
+<div class="h-6 w-full flex items-end">
+<svg class="w-full h-5 text-red-600 stroke-current fill-none stroke-[1.5]" viewbox="0 0 100 24">
+<path d="M 0,5 Q 35,9 55,16 T 80,19 L 100,22"></path>
+</svg>
+</div>
+</div>
+<!-- 6. WTI Crude -->
+<div class="p-2.5 bg-surface border border-outline-variant/40 rounded flex flex-col justify-between">
+<div class="flex justify-between items-start">
+<span class="text-label-caption font-bold text-on-surface-variant">WTI 원유</span>
+<span class="text-[10px] font-bold text-emerald-700 bg-emerald-50 px-1 rounded">+1.10%</span>
+</div>
+<div class="my-1">
+<div class="text-metric-stat-md font-mono text-on-surface">$78.45</div>
+</div>
+<div class="h-6 w-full flex items-end">
+<svg class="w-full h-5 text-emerald-600 stroke-current fill-none stroke-[1.5]" viewbox="0 0 100 24">
+<path d="M 0,16 Q 30,17 50,11 T 85,7 L 100,4"></path>
+</svg>
+</div>
+</div>
+</div>
+</div>
+<!-- MODULE 2: Today Economic Calendar Watchlist (Interactive Timeline) -->
+<div class="bg-surface-container-lowest border border-outline-variant/80 rounded-lg p-space-md shadow-xs">
+<div class="flex items-center justify-between border-b border-outline-variant/40 pb-2 mb-space-md">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-primary text-[1.1rem]">event_upcoming</span>
+<h3 class="text-headline-sm font-headline-sm text-primary font-semibold">오늘의 주요 경제 캘린더</h3>
+</div>
+<span class="text-label-caption text-secondary font-bold">5월 20일 발표</span>
+</div>
+<!-- Vertical Timeline with 1px Spine -->
+<div class="relative pl-6 space-y-4 before:content-[''] before:absolute before:left-2 before:top-2 before:bottom-2 before:w-[1.5px] before:bg-outline-variant/60">
+<!-- Event 1: BOK Minutes -->
+<div class="relative">
+<!-- Node Circle -->
+<span class="absolute -left-6 top-1 w-2.5 h-2.5 rounded-full bg-primary-container ring-4 ring-surface-container-lowest"></span>
+<div class="flex items-center gap-2 mb-0.5">
+<span class="text-label-tag font-mono text-on-surface-variant font-bold">14:00 KST</span>
+<span class="px-1.5 py-0.2 bg-surface-container text-on-surface rounded text-[10px] font-semibold">한국</span>
+</div>
+<h4 class="text-body-sm font-bold text-primary">한국은행 5월 금융통화위원회 의사록 공개</h4>
+<p class="text-label-caption text-on-surface-variant mt-0.5">
+                금통위원들의 수도권 부동산 PF 부실 평가 및 환율 변동성 용인 범위 발언 강도 주시.
+              </p>
+</div>
+<!-- Event 2: US Initial Jobless Claims (Key Focus) -->
+<div class="relative">
+<!-- Pulsing Ring for Upcoming Key Release -->
+<span class="absolute -left-6 top-1 w-2.5 h-2.5 rounded-full bg-red-600 ring-4 ring-red-100 animate-pulse"></span>
+<div class="flex items-center gap-2 mb-0.5">
+<span class="text-label-tag font-mono text-red-700 font-bold">21:30 KST</span>
+<span class="px-1.5 py-0.2 bg-red-100 text-red-900 rounded text-[10px] font-bold">미국 • 핵심</span>
+</div>
+<h4 class="text-body-sm font-bold text-primary">미 신규 실업수당 청구건수</h4>
+<div class="mt-1 p-2 bg-surface rounded border border-outline-variant/40 text-label-caption flex items-center justify-between">
+<span>시장 컨센서스 예상치:</span>
+<span class="font-mono font-bold text-on-surface">22.0만 건 (이전: 22.2만)</span>
+</div>
+</div>
+<!-- Event 3: Philly Fed Manufacturing -->
+<div class="relative">
+<span class="absolute -left-6 top-1 w-2.5 h-2.5 rounded-full bg-primary ring-4 ring-surface-container-lowest"></span>
+<div class="flex items-center gap-2 mb-0.5">
+<span class="text-label-tag font-mono text-on-surface-variant font-bold">23:00 KST</span>
+<span class="px-1.5 py-0.2 bg-surface-container text-on-surface rounded text-[10px] font-semibold">미국</span>
+</div>
+<h4 class="text-body-sm font-bold text-primary">필라델피아 연은 제조업 지수 (5월)</h4>
+<p class="text-label-caption text-on-surface-variant mt-0.5">
+                전망치 7.5 (전월 15.5 대비 안정화 여부 확인).
+              </p>
+</div>
+</div>
+<!-- Bottom Full Calendar CTA -->
+<a class="mt-space-md w-full py-2 bg-surface hover:bg-surface-container-high border border-outline-variant rounded text-center block text-body-sm font-semibold text-primary transition-colors" href="#">
+            월간 글로벌 경제 캘린더 전체보기 →
+          </a>
+</div>
+<!-- MODULE 3: Institutional Intelligence Promo Banner Card -->
+<div class="p-space-md bg-gradient-to-br from-primary-container to-[#1C2541] text-surface-bright rounded-lg shadow-sm border border-secondary/30 relative overflow-hidden">
+<div class="relative z-10">
+<div class="flex items-center justify-between mb-2">
+<span class="text-label-tag text-inverse-primary bg-secondary/40 px-2 py-0.5 rounded font-mono">Q2 MACRO OUTLOOK</span>
+<span class="material-symbols-outlined text-inverse-primary text-[1.1rem]">verified_user</span>
+</div>
+<h4 class="text-headline-sm font-headline-sm font-serif font-bold text-white mb-1">
+              기관 전용 매크로 위클리 전망치 다운로드
+            </h4>
+<p class="text-body-sm text-surface-dim mb-3">
+              골드만삭스, JP모건 등 글로벌 IB 12개사 종합 금리/환율 경로 시나리오 및 스트레스 테스트 모델 수록.
+            </p>
+<button class="w-full py-2 bg-surface-bright text-primary font-bold text-body-sm rounded hover:bg-white transition-colors cursor-pointer flex items-center justify-center gap-1.5 shadow-xs">
+<span class="material-symbols-outlined text-[15px]">file_download</span>
+              리포트 다운로드 (PDF • 4.2MB)
+            </button>
+</div>
+<!-- Subtle watermark icon in background -->
+<span class="material-symbols-outlined absolute -right-4 -bottom-6 text-white/5 text-[9rem] pointer-events-none select-none">
+            query_stats
+          </span>
+</div>
+</aside>
+</div>
+</main>
+<!-- FOOTER (Shared Component: Footer execution) -->
+<footer class="w-full bg-surface-container border-t border-outline-variant px-margin-desktop py-space-xl flex flex-col md:flex-row justify-between items-center text-body-sm text-on-surface-variant gap-4">
+<!-- Brand & Institutional Notice -->
+<div class="flex flex-col gap-1 text-center md:text-left">
+<div class="text-headline-sm font-headline-sm font-semibold text-primary">
+        모닝 매크로 브리핑
+      </div>
+<p class="text-label-caption font-label-caption text-on-surface-variant max-w-xl">
+        © 2025 모닝 매크로 브리핑. All institutional macroeconomic intelligence reserved.
+        <br/>데이터 출처 안내: 블룸버그 론(Bloomberg L.P.), 연합인포맥스, 로이터(LSEG), WSJ, 미 연방준비제도(FRB), 한국은행 공시 데이터.
+      </p>
+</div>
+<!-- Mandatory Footer Navigation Links -->
+<div class="flex items-center gap-space-md text-label-caption font-label-caption">
+<a class="text-on-surface-variant hover:text-primary transition-colors duration-150" href="#">이용약관</a>
+<span class="text-outline-variant">•</span>
+<a class="text-primary font-semibold hover:text-primary transition-colors duration-150" href="#">개인정보처리방침</a>
+<span class="text-outline-variant">•</span>
+<a class="text-on-surface-variant hover:text-primary transition-colors duration-150" href="#">데이터 출처 안내</a>
+<span class="text-outline-variant">•</span>
+<a class="text-on-surface-variant hover:text-primary transition-colors duration-150" href="#">기관 구독 문의</a>
+<span class="text-outline-variant">•</span>
+<a class="text-on-surface-variant hover:text-primary transition-colors duration-150" href="#">고객지원 센터</a>
+</div>
+</footer>
+</body></html>

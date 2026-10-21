@@ -1,0 +1,818 @@
+{
+  "date": "2026-10-20",
+  "generated_at": "2026-10-21T13:51:05+09:00",
+  "headline": "[dry-run] 2026-10-20 수집 결과",
+  "sections": [
+    {
+      "category": "물가",
+      "items": [
+        {
+          "title": "Canada Inflation Heats Up in September With Jump in Gas Prices",
+          "summary": "Canadian inflation ticked higher last month as prices at the pump jumped again, though underlying price pressures look to be holding steady.",
+          "why_it_matters": "",
+          "sources": [
+            {
+              "name": "WSJ Economy",
+              "url": "https://www.wsj.com/economy/central-banking/canada-inflation-heats-up-in-september-with-jump-in-gas-prices-7cffb4b8?mod=rss_socialeconomyfeed"
+            }
+          ],
+          "impact": null
+        },
+        {
+          "title": "Bank of Canada Survey Records Notable Rise in Inflation Expectations",
+          "summary": "Economists say the survey results could set the stage for a Bank of Canada interest-rate increase next week.",
+          "why_it_matters": "",
+          "sources": [
+            {
+              "name": "WSJ Economy",
+              "url": "https://www.wsj.com/economy/central-banking/bank-of-canada-survey-records-notable-rise-in-inflation-expectations-9d035987?mod=rss_socialeconomyfeed"
+            }
+          ],
+          "impact": null
+        },
+        {
+          "title": "Amazon to Hire Over 300,000 in Holiday Season, Up 20% From 2025",
+          "summary": "Amazon.com Inc. plans to hire more than 300,000 workers during the holiday shopping season, up 20% from a year ago, making it a stand-out in an otherwise lackluster holiday jobs market.",
+          "why_it_matters": "",
+          "sources": [
+            {
+              "name": "Bloomberg Economics",
+              "url": "https://www.bloomberg.com/news/articles/2026-10-20/amazon-to-hire-over-300-000-in-holiday-season-up-20-from-2025"
+            }
+          ],
+          "impact": null
+        }
+      ]
+    },
+    {
+      "category": "무역·재정",
+      "items": [
+        {
+          "title": "South Africa’s president eyes trade with China and India as US ties sour",
+          "summary": "Cyril Ramaphosa says Pretoria wants to take advantage of growing tariff-free access benefits with Beijing",
+          "why_it_matters": "",
+          "sources": [
+            {
+              "name": "Financial Times",
+              "url": "https://www.ft.com/content/617fb017-e08e-4e37-abac-a38731b2de3c?syn-25a6b1a6=1"
+            }
+          ],
+          "impact": null
+        },
+        {
+          "title": "한해 10억 버는 유튜버 9배 급증",
+          "summary": "유튜버 등 1인 미디어 업종에서 고수입 법인으로 수입 쏠림이 심화하고 있다. 연간 수입 10억원 이상인 상위 10% 법인이 전체 수입의 76%를 벌어들인 것으로 나타났다. 20일 ..",
+          "why_it_matters": "",
+          "sources": [
+            {
+              "name": "매일경제 경제",
+              "url": "https://www.mk.co.kr/news/economy/12180826"
+            }
+          ],
+          "impact": null
+        },
+        {
+          "title": "Traders are growing wary of a copper price crash with no sign of tariffs",
+          "summary": "A historic shift in global inventories has helped drive copper to records, but the trade behind the rally is looking increasingly fragile.",
+          "why_it_matters": "",
+          "sources": [
+            {
+              "name": "Bloomberg Economics",
+              "url": "https://www.bloomberg.com/news/newsletters/2026-10-20/traders-are-growing-wary-of-a-copper-price-crash-with-no-sign-of-tariffs"
+            }
+          ],
+          "impact": null
+        }
+      ]
+    },
+    {
+      "category": "경기·성장",
+      "items": [
+        {
+          "title": "Can Africa outgrow China?",
+          "summary": "IMF says continent’s GDP to expand faster than China for first time in decades as it beats worst expectations following Iran war",
+          "why_it_matters": "",
+          "sources": [
+            {
+              "name": "Financial Times",
+              "url": "https://www.ft.com/content/4702e72d-ba3c-43c4-92e7-1dffccddcd16?syn-25a6b1a6=1"
+            }
+          ],
+          "impact": null
+        },
+        {
+          "title": "Drop in Insolvencies Adds to Signs of Resilience in UK Economy",
+          "summary": "The number of company insolvencies in England and Wales declined in September from August, the latest sign that the UK economy is holding up in the face of surging energy prices and higher borrowing costs.",
+          "why_it_matters": "",
+          "sources": [
+            {
+              "name": "Bloomberg Economics",
+              "url": "https://www.bloomberg.com/news/articles/2026-10-20/uk-insolvencies-drop-as-businesses-endure-higher-costs"
+            }
+          ],
+          "impact": null
+        }
+      ]
+    },
+    {
+      "category": "통화정책",
+      "items": [
+        {
+          "title": "신한·하나은행, 해킹 피해 고객에 VIP 혜택…현금 보상은 없다",
+          "summary": "피해 여부 관계 없이 혜택 제공 수수료 면제 등 등급 따른 우대신한은행과 하나은행이 최근 발생한 금융권 해킹으로 개인정보가 유출된 자사 고객 전원에게 VIP 고객 수준의 혜택을 제..",
+          "why_it_matters": "",
+          "sources": [
+            {
+              "name": "매일경제 경제",
+              "url": "https://www.mk.co.kr/news/economy/12180691"
+            }
+          ],
+          "impact": null
+        },
+        {
+          "title": "China Benchmark Switch Spells Ramp-Up of Overnight Operation",
+          "summary": "China’s central bank may be embarking on a multi-month transition toward an overnight policy interest rate, a shift that will require more frequent liquidity operations using the new benchmark candidate to test market reception, analysts say.",
+          "why_it_matters": "",
+          "sources": [
+            {
+              "name": "Bloomberg Economics",
+              "url": "https://www.bloomberg.com/news/articles/2026-10-20/pboc-faces-multi-month-road-to-new-rate-anchor-analysts-say"
+            }
+          ],
+          "impact": null
+        },
+        {
+          "title": "잠자는 은행·보험 계좌에 14조원 방치",
+          "summary": "우대금리를 좇아 새로 만든 통장, 수수료 혜택을 따라 늘린 주식 계좌가 기억에서 사라진 채 쌓이고 있다. 금융권에서 장기간 거래가 끊겼거나 휴면 상태에 들어간 계좌가 3억4000만..",
+          "why_it_matters": "",
+          "sources": [
+            {
+              "name": "매일경제 경제",
+              "url": "https://www.mk.co.kr/news/economy/12180816"
+            }
+          ],
+          "impact": null
+        },
+        {
+          "title": "中企, 한은 저리대출 43조 몰려",
+          "summary": "한국은행의 지원을 받는 은행들이 지방 중소기업에 내준 대출이 43조원을 넘어섰다. 2024년 말보다 40% 이상 증가한 규모로, 한은의 저리자금 공급 한도인 5조9000억원의 7...",
+          "why_it_matters": "",
+          "sources": [
+            {
+              "name": "매일경제 경제",
+              "url": "https://www.mk.co.kr/news/economy/12180823"
+            }
+          ],
+          "impact": null
+        },
+        {
+          "title": "Indonesia Rate-Hike Bets Rise as MSCI Shock Tests Rupiah",
+          "summary": "Bank Indonesia’s reluctance to raise interest rates faces a fresh test Wednesday, with bets on a hike increasing as the threat of a double downgrade to the nation’s stock market fuels capital outflows and piles pressure on the rupiah.",
+          "why_it_matters": "",
+          "sources": [
+            {
+              "name": "Bloomberg Economics",
+              "url": "https://www.bloomberg.com/news/articles/2026-10-20/bank-indonesia-rate-hike-bets-rise-as-msci-shock-tests-rupiah"
+            }
+          ],
+          "impact": null
+        },
+        {
+          "title": "2번 연속 금리 올린 한국은행…“또 올리나” vs “동결하나” 관심 집중",
+          "summary": "이번주 22일 한은 기준금리 결정 시장은 11월 인상 가능성에 무게한국은행 금융통화위원회가 지난 7~8월 기준금리를 2차례 인상한 가운데, 오는 22일 기준금리 결정을 앞두고 동결..",
+          "why_it_matters": "",
+          "sources": [
+            {
+              "name": "매일경제 경제",
+              "url": "https://www.mk.co.kr/news/economy/12180901"
+            }
+          ],
+          "impact": null
+        },
+        {
+          "title": "Bulls think AI is immune to higher rates. Dot-com investors made the same mistake. Read more in today’s WSJ Economics newsletter:",
+          "summary": "Plus, AI slop comes for the government, why large families are a status symbol, and lessons from Jerome Powell’s calendar.",
+          "why_it_matters": "",
+          "sources": [
+            {
+              "name": "WSJ Economy",
+              "url": "https://www.wsj.com/finance/investing/yes-the-fed-can-kill-the-ai-boom-3c25da2e?mod=rss_socialeconomyfeed"
+            }
+          ],
+          "impact": null
+        },
+        {
+          "title": "ECB’s Rehn Says French Spread to Germany Has Widened ‘Somewhat’",
+          "summary": "French bond spreads relative to German bunds have widened “somewhat” as a result of both global and country-specific factors, European Central Bank Governing Council member Olli Rehn said.",
+          "why_it_matters": "",
+          "sources": [
+            {
+              "name": "Bloomberg Economics",
+              "url": "https://www.bloomberg.com/news/articles/2026-10-20/ecb-s-rehn-says-french-spread-to-germany-has-widened-somewhat"
+            }
+          ],
+          "impact": null
+        },
+        {
+          "title": "Hungary Holds Key Rate With Budget and Euro Path In Focus",
+          "summary": "Hungary’s central bank kept interest rates unchanged for a second month with Governor Mihaly Varga pointing to market reaction to the government’s fiscal plan as a factor affecting future moves.",
+          "why_it_matters": "",
+          "sources": [
+            {
+              "name": "Bloomberg Economics",
+              "url": "https://www.bloomberg.com/news/articles/2026-10-20/hungary-holds-interest-rate-with-budget-and-euro-path-in-focus"
+            }
+          ],
+          "impact": null
+        }
+      ]
+    },
+    {
+      "category": "고용",
+      "items": [
+        {
+          "title": "U.K. Wage Growth Picks Up, Jobless Rate Falls Ahead of Bank of England Meeting",
+          "summary": "Wage growth rose a little in the three months through August, with unemployment also falling, raising the likelihood that the Bank of England will raise its key rate next month.",
+          "why_it_matters": "",
+          "sources": [
+            {
+              "name": "WSJ Economy",
+              "url": "https://www.wsj.com/world/uk/u-k-wage-growth-picks-up-ahead-of-bank-of-england-meeting-6e4a979b?mod=rss_socialeconomyfeed"
+            }
+          ],
+          "impact": null
+        },
+        {
+          "title": "‘고용장관 자랑’에서 걸러내야 할 운과 실력 [논설실 Pick]",
+          "summary": "산재사망 감소, 조업일 격차·줄폐업 투영 정부의 공 자화자찬, 좀 민망하지 않나조업일수라는 게 있다. 달력에서 빨간 글씨(일요일·공휴일)를 뺀 검은 글씨의 날을 가리킨다. 평일은 ..",
+          "why_it_matters": "",
+          "sources": [
+            {
+              "name": "매일경제 경제",
+              "url": "https://www.mk.co.kr/news/economy/12180707"
+            }
+          ],
+          "impact": null
+        },
+        {
+          "title": "[단독] \"AI가 대체 못할 헬스케어 분야에 기회\"",
+          "summary": "아자이 방가 세계은행(WB) 총재가 한국의 인구구조 변화에 대응해 헬스케어와 관광업 등을 새로운 고용 창출의 기회로 활용해야 한다고 조언했다. 인공지능(AI) 확산이 고용 시장에 ..",
+          "why_it_matters": "",
+          "sources": [
+            {
+              "name": "매일경제 경제",
+              "url": "https://www.mk.co.kr/news/economy/12180856"
+            }
+          ],
+          "impact": null
+        }
+      ]
+    },
+    {
+      "category": "원자재",
+      "items": [
+        {
+          "title": "수출 호조에 원화값 1320원대…연말 1200원대 후반 전망도",
+          "summary": "달러당 원화값이 2년여 만에 가장 높은 수준인 1320원대로 올라섰다. 고유가와 외국인 투자자의 순매도에도 반도체를 중심으로 수출 호조가 이어지면서 시장에 달러 공급이 크게 확대된..",
+          "why_it_matters": "",
+          "sources": [
+            {
+              "name": "매일경제 경제",
+              "url": "https://www.mk.co.kr/news/economy/12180819"
+            }
+          ],
+          "impact": null
+        },
+        {
+          "title": "브렌트유 111달러까지 치솟아…사우디 석유시설 공격에 초긴장",
+          "summary": "",
+          "why_it_matters": "",
+          "sources": [
+            {
+              "name": "한국경제 경제",
+              "url": "https://www.hankyung.com/article/202610204308i"
+            }
+          ],
+          "impact": null
+        }
+      ]
+    },
+    {
+      "category": "환율·외환",
+      "items": [
+        {
+          "title": "[표] 외국환율고시표",
+          "summary": "",
+          "why_it_matters": "",
+          "sources": [
+            {
+              "name": "매일경제 경제",
+              "url": "https://www.mk.co.kr/news/economy/12180821"
+            }
+          ],
+          "impact": null
+        }
+      ]
+    }
+  ],
+  "article_count": 23,
+  "indicators": [
+    {
+      "name": "코스피",
+      "group": "시장",
+      "value": 5552.7402,
+      "change": -215.2695,
+      "change_pct": -3.73,
+      "unit": "",
+      "decimals": 2,
+      "as_of": "2026-10-20",
+      "source_url": "https://finance.yahoo.com/quote/^KS11",
+      "history": [
+        6715.4102,
+        6894.23,
+        7007.7202,
+        7017.9102,
+        7080.9199,
+        6889.7402,
+        6870.8101,
+        6838.04,
+        6971.3501,
+        7003.7402,
+        6941.3901,
+        6803.8999,
+        6625.9302,
+        6384.2402,
+        6035.3501,
+        6008.8101,
+        5554.2202,
+        5668.0498,
+        5768.0098,
+        5552.7402
+      ]
+    },
+    {
+      "name": "코스닥",
+      "group": "시장",
+      "value": 781.97,
+      "change": -26.92,
+      "change_pct": -3.33,
+      "unit": "",
+      "decimals": 2,
+      "as_of": "2026-10-20",
+      "source_url": "https://finance.yahoo.com/quote/^KQ11",
+      "history": [
+        822.18,
+        827.12,
+        836.27,
+        834.38,
+        844.48,
+        846.58,
+        849.8,
+        855.91,
+        894.29,
+        893.29,
+        919.92,
+        898.43,
+        892.27,
+        849.19,
+        837.03,
+        823.88,
+        760.82,
+        794.78,
+        808.89,
+        781.97
+      ]
+    },
+    {
+      "name": "S&P 500",
+      "group": "시장",
+      "value": 7712.5698,
+      "change": 21.8398,
+      "change_pct": 0.28,
+      "unit": "",
+      "decimals": 2,
+      "as_of": "2026-10-20",
+      "source_url": "https://finance.yahoo.com/quote/^GSPC",
+      "history": [
+        7706.0298,
+        7704.1299,
+        7743.4102,
+        7683.6899,
+        7670.8398,
+        7651.54,
+        7666.4502,
+        7722.7202,
+        7773.9502,
+        7818.9302,
+        7801.77,
+        7765.3599,
+        7811.54,
+        7807.2402,
+        7805.4502,
+        7718.9399,
+        7744.0601,
+        7659.4399,
+        7690.73,
+        7712.5698
+      ]
+    },
+    {
+      "name": "나스닥",
+      "group": "시장",
+      "value": 26424.8203,
+      "change": -6.0703,
+      "change_pct": -0.02,
+      "unit": "",
+      "decimals": 2,
+      "as_of": "2026-10-20",
+      "source_url": "https://finance.yahoo.com/quote/^IXIC",
+      "history": [
+        26936.0391,
+        26939.3691,
+        27068.7207,
+        26820.3809,
+        26797.5391,
+        26861.0605,
+        26871.5996,
+        27190.8594,
+        27477.3105,
+        27599.7891,
+        27538.6895,
+        27193.3398,
+        27366.1699,
+        27245.9004,
+        27204.3809,
+        26692.8691,
+        26713.0293,
+        26140.0293,
+        26430.8906,
+        26424.8203
+      ]
+    },
+    {
+      "name": "원/달러 환율",
+      "group": "시장",
+      "value": 1330.0,
+      "change": -3.4301,
+      "change_pct": -0.26,
+      "unit": "원",
+      "decimals": 2,
+      "as_of": "2026-10-20",
+      "source_url": "https://finance.yahoo.com/quote/KRW=X",
+      "history": [
+        1350.36,
+        1362.5,
+        1367.36,
+        1354.51,
+        1359.5601,
+        1350.5,
+        1356.84,
+        1360.59,
+        1342.5601,
+        1343.75,
+        1339.74,
+        1339.08,
+        1342.99,
+        1340.84,
+        1334.13,
+        1340.3101,
+        1339.35,
+        1340.95,
+        1333.4301,
+        1330.0
+      ]
+    },
+    {
+      "name": "달러인덱스",
+      "group": "시장",
+      "value": 101.73,
+      "change": -0.25,
+      "change_pct": -0.25,
+      "unit": "",
+      "decimals": 2,
+      "as_of": "2026-10-20",
+      "source_url": "https://finance.yahoo.com/quote/DX-Y.NYB",
+      "history": [
+        101.1,
+        101.29,
+        100.97,
+        101.2,
+        101.37,
+        101.45,
+        102.1,
+        101.93,
+        102.17,
+        101.83,
+        102.24,
+        102.14,
+        102.21,
+        102.58,
+        102.18,
+        102.55,
+        102.0,
+        101.84,
+        101.98,
+        101.73
+      ]
+    },
+    {
+      "name": "WTI 유가",
+      "group": "시장",
+      "value": 103.66,
+      "change": 2.25,
+      "change_pct": 2.22,
+      "unit": "$",
+      "decimals": 2,
+      "as_of": "2026-10-19",
+      "source_url": "https://finance.yahoo.com/quote/CL=F",
+      "history": [
+        94.59,
+        92.16,
+        94.61,
+        92.41,
+        92.6,
+        89.38,
+        90.42,
+        92.87,
+        91.11,
+        89.43,
+        89.44,
+        88.28,
+        91.49,
+        91.85,
+        93.74,
+        94.14,
+        95.09,
+        97.97,
+        101.41,
+        103.66
+      ]
+    },
+    {
+      "name": "금",
+      "group": "시장",
+      "value": 4160.1001,
+      "change": -21.0,
+      "change_pct": -0.5,
+      "unit": "$",
+      "decimals": 1,
+      "as_of": "2026-10-19",
+      "source_url": "https://finance.yahoo.com/quote/GC=F",
+      "history": [
+        4376.3999,
+        4318.3999,
+        4298.0,
+        4321.2002,
+        4168.3999,
+        4179.7002,
+        4186.7002,
+        4202.2998,
+        4162.2998,
+        4156.7998,
+        4187.1001,
+        4140.7002,
+        4157.0,
+        4216.2998,
+        4190.6001,
+        4177.2998,
+        4107.8999,
+        4170.1001,
+        4181.1001,
+        4160.1001
+      ]
+    },
+    {
+      "name": "VIX",
+      "group": "시장",
+      "value": 17.31,
+      "change": -1.13,
+      "change_pct": -6.13,
+      "unit": "",
+      "decimals": 2,
+      "as_of": "2026-10-20",
+      "source_url": "https://finance.yahoo.com/quote/^VIX",
+      "history": [
+        15.18,
+        15.67,
+        14.87,
+        16.07,
+        16.04,
+        16.34,
+        16.39,
+        15.31,
+        15.52,
+        15.01,
+        15.08,
+        15.41,
+        14.84,
+        15.21,
+        15.27,
+        16.87,
+        16.46,
+        19.99,
+        18.44,
+        17.31
+      ]
+    },
+    {
+      "name": "미국 기준금리 (상단)",
+      "group": "금리",
+      "value": 4.0,
+      "change": 0.0,
+      "change_pct": null,
+      "unit": "%",
+      "decimals": 2,
+      "as_of": "2026-10-20",
+      "source_url": "https://fred.stlouisfed.org/series/DFEDTARU",
+      "history": [
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ]
+    },
+    {
+      "name": "미국채 2년",
+      "group": "금리",
+      "value": 4.77,
+      "change": 0.03,
+      "change_pct": null,
+      "unit": "%",
+      "decimals": 2,
+      "as_of": "2026-10-19",
+      "source_url": "https://fred.stlouisfed.org/series/DGS2",
+      "history": [
+        4.76,
+        4.71,
+        4.85,
+        4.87,
+        4.81,
+        4.92,
+        4.89,
+        4.88,
+        4.78,
+        4.83,
+        4.84,
+        4.79,
+        4.77,
+        4.75,
+        4.8,
+        4.79,
+        4.82,
+        4.77,
+        4.74,
+        4.77
+      ]
+    },
+    {
+      "name": "미국채 10년",
+      "group": "금리",
+      "value": 5.15,
+      "change": 0.06,
+      "change_pct": null,
+      "unit": "%",
+      "decimals": 2,
+      "as_of": "2026-10-19",
+      "source_url": "https://fred.stlouisfed.org/series/DGS10",
+      "history": [
+        4.96,
+        4.96,
+        5.11,
+        5.18,
+        5.17,
+        5.24,
+        5.26,
+        5.29,
+        5.24,
+        5.28,
+        5.31,
+        5.27,
+        5.28,
+        5.22,
+        5.24,
+        5.21,
+        5.19,
+        5.1,
+        5.09,
+        5.15
+      ]
+    },
+    {
+      "name": "미국 CPI (YoY)",
+      "group": "경제지표",
+      "value": 3.7173,
+      "change": 0.3642,
+      "change_pct": null,
+      "unit": "%",
+      "decimals": 1,
+      "as_of": "2026-09-01",
+      "source_url": "https://fred.stlouisfed.org/series/CPIAUCSL",
+      "history": [
+        2.991,
+        2.8016,
+        2.382,
+        2.3254,
+        2.3773,
+        2.6805,
+        2.7426,
+        2.9386,
+        3.0226,
+        2.6964,
+        2.6533,
+        2.3912,
+        2.434,
+        3.286,
+        3.7792,
+        4.1666,
+        3.4635,
+        3.3039,
+        3.353,
+        3.7173
+      ]
+    },
+    {
+      "name": "미국 근원 CPI (YoY)",
+      "group": "경제지표",
+      "value": 2.5658,
+      "change": 0.1197,
+      "change_pct": null,
+      "unit": "%",
+      "decimals": 1,
+      "as_of": "2026-09-01",
+      "source_url": "https://fred.stlouisfed.org/series/CPILFESL",
+      "history": [
+        3.283,
+        3.1376,
+        2.8088,
+        2.776,
+        2.7658,
+        2.9109,
+        3.0545,
+        3.1118,
+        3.02,
+        2.599,
+        2.6465,
+        2.512,
+        2.4725,
+        2.6022,
+        2.7433,
+        2.8229,
+        2.5658,
+        2.4665,
+        2.4462,
+        2.5658
+      ]
+    },
+    {
+      "name": "미국 실업률",
+      "group": "경제지표",
+      "value": 4.2,
+      "change": 0.1,
+      "change_pct": null,
+      "unit": "%",
+      "decimals": 1,
+      "as_of": "2026-09-01",
+      "source_url": "https://fred.stlouisfed.org/series/UNRATE",
+      "history": [
+        4.0,
+        4.2,
+        4.2,
+        4.2,
+        4.3,
+        4.1,
+        4.3,
+        4.3,
+        4.4,
+        4.5,
+        4.4,
+        4.3,
+        4.4,
+        4.3,
+        4.3,
+        4.3,
+        4.2,
+        4.1,
+        4.1,
+        4.2
+      ]
+    }
+  ],
+  "lead": "",
+  "key_points": []
+}
