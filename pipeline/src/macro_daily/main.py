@@ -54,7 +54,8 @@ def run(target: date, dry_run: bool = False) -> None:
     indicators = fetch_indicators(target)
 
     if dry_run:
-        headline, lead, key_points, sections = f"[dry-run] {target} 수집 결과", "", [], _raw_sections(articles)
+        headline = f"{target.month}월 {target.day}일 거시경제 주요 뉴스"
+        lead, key_points, sections = "", [], _raw_sections(articles)
     else:
         from .summarizer.llm import summarize
         s = summarize(articles, indicators, target.isoformat(), list(categories))
